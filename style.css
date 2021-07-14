@@ -5,23 +5,127 @@ body,html{
     margin:0;
     display: flex;
     justify-content: center;
+    
 }
 *{
     box-sizing:border-box;
 }
 
 main {
-    background: peachpuff;
-    height: 100;
+    background: white;
+     width: 100%;
     display: grid;
-    grid-template-rows: 1fr 7fr 1.5fr;
+    grid-template-rows: .6fr 7fr 1.5fr;
 }
 
 header {
-    background: plum;
+   margin:20px;
+   display:grid;
+   grid-template-columns:25fr 25fr 10fr;  
+   font-family: 'Raleway', sans-serif;
+ font-size:1.1em;
+   
 }
 
-.main-content{
+#logo-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        width: 70%;
+        
+      }
+
+      .search-location {
+        border: 1px solid grey;
+        border-radius: 15px 0px 0px 15px;
+        height: 40px;
+        width: 33%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        outline: 0;
+        background-color: white;
+        opacity:.5;
+        font-family: 'Raleway', sans-serif;
+        font-size:1.1em;
+        
+        
+      }
+
+      .search-dates {
+        border: 1px solid grey;
+        border-radius: 0px 0px 0px 0px;
+        height: 40px;
+        width: 25%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        outline: 0;
+        background-color: white;
+        opacity:.5;
+        font-family: 'Raleway', sans-serif;
+        font-size:1.1em;
+      }
+
+      .search-guests {
+        border: 1px solid grey;
+        border-radius: 0px;
+        height: 40px;
+        width: 27%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        outline: 0;
+        background-color: white;
+        opacity:.5;
+        font-family: 'Raleway', sans-serif;
+        font-size:1.1em;
+      }
+
+      button
+      {
+          color: #fff;
+          padding: 0;
+          margin: 0;
+          background-color: transparent;
+          height:40px;
+          width:50px;
+          border: 1px solid grey;
+          border-radius: 0px 15px 15px 0px;
+          opacity:.5;
+          } 
+        
+        button:hover{
+            opacity: 1;
+        }
+
+        .web-button
+        {
+            color: #fff;
+            padding: 0;
+            margin: 0;
+            background-color: transparent;
+            height:40px;
+            width:50px;
+            border: none;
+            opacity:.5;
+            } 
+
+    }
+
+        .rightnav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+
+#main-content{
     background: olive;
 }
 
