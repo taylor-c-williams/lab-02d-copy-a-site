@@ -1,0 +1,30 @@
+body,html{
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+    display: flex;
+    justify-content: center;
+}
+*{
+    box-sizing:border-box;
+}
+
+main {
+    background: peachpuff;
+    height: 100;
+    display: grid;
+    grid-template-rows: 1fr 7fr 1.5fr;
+}
+
+header {
+    background: plum;
+}
+
+.main-content{
+    background: olive;
+}
+
+footer{
+    background:tomato;
+}
